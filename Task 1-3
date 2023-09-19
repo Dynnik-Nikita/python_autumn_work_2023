@@ -1,0 +1,23 @@
+x=int(input('Введите число X '))
+y=int(input('Введите число Y '))
+
+if y!=0:
+    a1=x*y
+    a2=x-y
+    a3=x+y
+    a4=x/y
+    a5=x//y
+    list_val = [a1, a2, a3, a4, a5]
+    list_val.sort()
+    print("Печатаем второе по величине:", list_val[-2])
+elif y==0:
+    a1=x*y
+    a2=x-y
+    a3=x+y
+    list_val = [a1, a2, a3]
+    list_val.sort()
+    print("Печатаем второе по величине:", list_val[-2])
+
+
+
+
